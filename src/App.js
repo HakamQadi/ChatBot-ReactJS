@@ -4,12 +4,8 @@ import './App.css';
 
 
 const conf = new Configuration({
-  organization: "org-gNGh2t2WYIC9ERDLsocPHEI3",
-  apiKey: "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"
-
-
-  // organization: "org-eee",
-  // apiKey: "sk-eeee"
+  organization: "org-Example",
+  apiKey: "sk-Example"
 })
 
 const openAi = new OpenAIApi(conf)   //This instance will be used to make requests to the OpenAI API.
